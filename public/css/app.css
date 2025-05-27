@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/** navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  padding: 40px 0px;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.33);
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+nav div h1 {
+  color: rgb(84, 78, 89);
+  font-size: 30px;
+}
+nav div h1 span {
+  color: red;
+}
+.secDiv label{
+  margin-left: 25px;
+}
+.secDiv a {
+  text-decoration: none;
+  color: #7f7f90;
+  margin-left: 25px;
+  font-size: 30px;
+}
+
+.secDiv a:hover{
+    border-bottom: 2px solid red;
+    color: black;
+}
+
+.labell {
+  color: #7f7f90;
+  font-size: 30px;
+}
+
+.secDiv select {
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(84, 78, 89);
+}
+.secDiv select:hover{
+  border-bottom: 2px solid red;
+  color: black;
+}
+
+.btn-1 {
+  background-color: rgb(213, 53, 53);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  border-style: none;
+  width: 120px;
+}
+
+/** section 1 Home */
+.bigDiv {
+  background-color: rgb(242, 242, 242);
+  height: 100vh;
+  display: flex;
+  padding-top: 150px;
+}
+.mainDiv-1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.font {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+.mini-1 {
+  display: flex;
+  gap: 10px;
+  opacity: 1;
+  /* transform: translateX(-105px); */
+}
+.mini-1 div i {
+  color: rgb(211, 51, 51);
+  font-size: 28px;
+  /* padding: 10px 20px; */
+  /* transform: translatey(3px); */
+}
+.mainDiv-1 p{
+  font-size: 30px;
+  color: #7f7f90;
+}
+
+.mini-1 div:nth-child(2) {
+  font-size: 30px;
+}
+.mini-1 div:hover {
+  color: rgb(211, 51, 51);
+  /* transition: 0.4s; */
+}
+.mainDiv-2{
+  width: 50%;
+  height: 100%;
+}
+@keyframes saif {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.mainDiv-2 img {
+  animation: saif infinite 4s;
+}
+
+/** sectoun 2 */
+
+.about-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid rgb(99, 102, 105);
+  height: 200px;
+  width: 850px;
+  font-size: 20px;
+  margin-bottom: 93px;
+}
+.about-1 p{
+  font-size: 40px;
+}
+.mainDiv-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 70px;
+}
+.mini-2 {
+  width: 50%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  position: relative;
+  top: -500;
+
+  transform: translateX(50px);
+}
+.mini-3 {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+  row-gap: 20px;
+  font-size: 18px;
+  transform: translate(-100px, 100px);
+}
+.mini-3 p {
+  color: rgb(144, 146, 148);
+  font-size: 25px;
+}
+.Ullamco{
+  font-size: 25px;
+}
+.Ullamcoi p{
+  font-size: 25px;
+  padding-left: 10px;
+  color: black;
+}
+.mainDiv-3 p{
+  color: #7f7f90;
+  font-size: 25px;
+}
+.mainDiv-3 h1{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+.mini-3 i {
+  color: red;
+  transform: translateX(-15px);
+}
+.mainDiv-4 {
+  display: flex;
+}
+.red1{
+  color: red;
+}
+.red {
+  color: rgb(206, 18, 18);
+}
+.about-2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  transform: translateX(22px);
+  font-size: 20px;
+}
+.imgabout2 img{
+  padding-left: 50px;
+}
+
+
+
+.bigDiv-3 {
+  height: 430px;
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 38px;
+}
+
+.cart-1 {
+  height: 80%;
+  width: 400px;
+  background-color: rgb(206, 18, 18);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.cart-1 button {
+  height: 40px;
+  width: 150px;
+  background-color: rgb(213, 53, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  gap: 10px;
+}
