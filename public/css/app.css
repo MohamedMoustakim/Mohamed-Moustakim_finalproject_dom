@@ -396,3 +396,214 @@ nav div h1 span {
   flex-direction: column;
   padding-top: 40px;
 }
+
+/** caroseul */
+
+.carousel-container {
+  background: gray;
+  position: relative;
+  overflow: hidden;
+}
+.carousel {
+  display: flex;
+  transition: 0.5s;
+}
+
+.slide {
+  min-width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+.TEST{
+  color: #7f7f90;
+}
+.Sayingh1{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+.ipsump{
+  font-style: italic;
+  font-size: 30px;
+}
+.fa-quote-left{
+  color: #e08282;
+}
+.fa-quote-right{
+  color: #e08282;
+}
+.Saul{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+.Ceo{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #7f7f90;
+}
+
+.cars-1 {
+  height: 300px;
+  width: 100%;
+  padding: 100px;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  position: relative;
+  right: 100px;
+}
+.yell {
+  color: rgb(255, 193, 7);
+}
+.cars-2 {
+  border-radius: 50%;
+}
+.please {
+  height: 250px;
+  width: 250px;
+}
+
+.big-cars-3 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  border-left: 3px solid #ce1212;
+  padding-left: 20px;
+}
+.cars-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+/** chefs */
+.bigDiv-8 {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.mini-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mini-4 p {
+  padding-top: 60px;
+}
+.mini-4 h1 {
+  padding-top: 60px;
+}
+.mainDiv-5 {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+.card-1 {
+  height: 600px;
+  width: 430px;
+  overflow: hidden;
+  box-shadow: -7px 10px 32px -24px rgba(0, 0, 0, 0.83);
+  border-radius: 10px;
+}
+.card-1:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+.card-1:hover .zzz {
+  display: flex;
+}
+.zzz {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.13);
+  width: 40px;
+  row-gap: 20px;
+  position: absolute;
+  top: 30px;
+  left: 370px;
+  padding: 20px 5px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.card-1 img {
+  width: 100%;
+  height: 70%;
+}
+.clip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translatey(-100px);
+  height: 275px;
+  width: 100%;
+  background-color: white;
+  gap: 20px;
+  text-align: center;
+}
+.marg {
+  margin-top: 60px;
+}
+.clip h3 {
+  color: rgb(55, 55, 63);
+}
+.clip p {
+  color: rgb(128, 131, 134);
+}
+
+/* .next,
+.previous {
+  padding: 1vh 2vw;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.next {
+  right: 0px;
+}
+.previous {
+  left: 0;
+} */
+
+/* .indicators-grp {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(211, 212, 212);
+  cursor: pointer;
+}
+
+.indicator.active {
+  background: rgb(206, 18, 18);
+} */
