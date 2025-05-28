@@ -221,7 +221,7 @@ nav div h1 span {
 
 
 
-/* .bigDiv-3 {
+.bigDiv-3 {
   height: 430px;
   width: 100%;
   background-color: rgb(242, 242, 242);
@@ -290,7 +290,7 @@ nav div h1 span {
 }
 
 
-.bigDiv-4 {
+/* .bigDiv-4 {
   background-image: url(../images/stats-bg.jpg);
   height: 400px;
   width: 100%;
