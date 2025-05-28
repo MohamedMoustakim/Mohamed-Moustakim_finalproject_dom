@@ -321,3 +321,78 @@ nav div h1 span {
   color: rgb(199, 196, 195);
   font-size: 20px;
 }
+
+/** menu */
+.bigDiv-5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.mini-menu-2 p{
+  color: #7f7f90;
+  font-size: 25px;
+}
+.mini-menu-2 h1{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  padding: 20px 15px;
+}
+.menu-1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15vw;
+}
+
+.menu-1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu-1 div h2 {
+  color: rgb(206, 18, 18);
+}
+.menu-1 div p {
+  color: rgb(161, 161, 168);
+}
+
+.Menuii{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 45px;
+}
+.Menuii h1{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.mini-menu-1 {
+  display: flex;
+  gap: 50px;
+  padding-top: 100px;
+  font-size: 25px;
+}
+.mini-menu-1 h5 {
+  padding: 10px 0px;
+  border-bottom: 3px solid rgb(208, 207, 207);
+}
+.mini-menu-1 h5:hover {
+  border-bottom: 3px solid red;
+}
+.mini-menu-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
