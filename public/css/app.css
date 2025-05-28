@@ -220,7 +220,7 @@ nav div h1 span {
 }
 
 
-
+/** bigDiv-3 */
 .bigDiv-3 {
   height: 430px;
   width: 100%;
@@ -289,8 +289,8 @@ nav div h1 span {
   transition: 0.4s;
 }
 
-
-/* .bigDiv-4 {
+/** bigDiv-4  */
+.bigDiv-4 {
   background-image: url(../images/stats-bg.jpg);
   height: 400px;
   width: 100%;
@@ -316,4 +316,4 @@ nav div h1 span {
 .bigDiv-4 div p {
   color: rgb(199, 196, 195);
   font-size: 17px;
-} */
+}
