@@ -126,7 +126,7 @@ nav div h1 span {
 
 /** sectoun 2 */
 
-/* .about-1 {
+.about-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,7 +221,7 @@ nav div h1 span {
 
 
 
-.bigDiv-3 {
+/* .bigDiv-3 {
   height: 430px;
   width: 100%;
   background-color: rgb(242, 242, 242);
