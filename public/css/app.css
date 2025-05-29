@@ -261,7 +261,7 @@ form .text h3{
   animation: saif infinite 4s;
 }
 
-/** sectoun 2 */
+/** about  */
 
 .about-1 {
   display: flex;
@@ -459,7 +459,7 @@ form .text h3{
   font-size: 20px;
 }
 
-/** menu */
+/** Menu */
 .bigDiv-5 {
   display: flex;
   align-items: center;
@@ -536,7 +536,7 @@ form .text h3{
   padding-top: 40px;
 }
 
-/** caroseul */
+/** caroseul1 */
 
 .carousel-container {
   background: gray;
@@ -629,7 +629,7 @@ form .text h3{
 }
 
 
-/** caroucel */
+/** caroucel2 */
 
 .sec6{
     display: flex;
@@ -822,7 +822,7 @@ form .text h3{
   color: rgb(128, 131, 134);
 }
 
-/** section6 */
+/** Book A Table */
 .container{
     display: flex;
     align-items: center;
