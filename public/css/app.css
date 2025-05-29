@@ -511,6 +511,7 @@ form .text h3{
   font-style: normal;
   font-size: 5rem;
   font-weight: bolder;
+  color: #ce1212;
 }
 
 .mini-menu-1 {
@@ -519,11 +520,12 @@ form .text h3{
   padding-top: 100px;
   font-size: 25px;
 }
-.mini-menu-1 h5 {
+.mini-menu-1 a {
   padding: 10px 0px;
   border-bottom: 3px solid rgb(208, 207, 207);
+  cursor: pointer ;
 }
-.mini-menu-1 h5:hover {
+.mini-menu-1 a:hover {
   border-bottom: 3px solid red;
 }
 .mini-menu-2 {

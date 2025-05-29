@@ -13,7 +13,7 @@ closeModal.addEventListener('click',() => {
 
 let Video = document.querySelector("#video");
 let mydivmodal = document.querySelector("#vimodal");
-// let divPlayVideo = document.querySelector("#play-video")
+
 let evid = document.querySelector(".video-close");
 
 Video.addEventListener("click", () => {
@@ -24,6 +24,20 @@ evid.addEventListener("click", () => {
   mydivmodal.style.display = "none";
 });
 
-// divPlayVideo.addEventListener("click", () => {
-//   mydivmodal.style.display = "block";
-// });
+
+
+let Mystar = document.querySelector("#StarTers")
+let Mybreak = document.querySelector("#Breakfast")
+let Mylunch = document.querySelector("#Lunch")
+let Mydinner = document.querySelector("#Dinner")
+let Mysec4Title = document.querySelector(".redverybigfont2")
+
+function changeTitle(text) {
+  Mysec4Title.textContent = text;
+  Mysec4Title.style.borderBottom = "2px solid #ce121"
+}
+
+Mystar.addEventListener('click', () => changeTitle("STARTERS"))
+Mybreak.addEventListener('click', () => changeTitle("BREKFAST"))
+Mylunch.addEventListener('click', () => changeTitle("LUNCH"))
+Mydinner.addEventListener('click', () => changeTitle("DINNER"))
