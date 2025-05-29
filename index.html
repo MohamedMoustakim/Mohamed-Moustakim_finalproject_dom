@@ -25,11 +25,11 @@
         </div>
 
         <div class="secDiv">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Menu</a>
-            <a href="">Events</a>
-            <a href="">Chefs</a>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Events">Events</a>
+            <a href="#Chefs">Chefs</a>
             <a href="">Gallery</a>
             <label id="" href="#drop" class="labell" for="">DropDown</label>
             <select name="DropDown" id="">DropDown</select>
@@ -44,7 +44,7 @@
 
     <!--* Home -->
     <section>
-        <div id="home" class="bigDiv">
+        <div id="Home" class="bigDiv">
             <div class="mainDiv-1">
 
 
@@ -73,7 +73,7 @@
     <!--* About -->
     <section>
         <div>
-            <div class="mainDiv-3">
+            <div id="About" class="mainDiv-3">
                 <p>About Us</p>
                 <h1>Learn More <span class="red1">About Us</span></h1>
             </div>
@@ -122,7 +122,7 @@
             </div>
         </div>
 
-        <div class="bigDiv-3">
+        <div  class="bigDiv-3">
             <div class="cart-1">
                 <h1>Why Choose Yummy</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -173,7 +173,7 @@
     </section>
     <!--* menu -->
     <section>
-        <div id="menu" class="bigDiv-5">
+        <div id="Menu" class="bigDiv-5">
             <div class="mini-menu-2">
                 <p>Our Menu</p>
                 <h1 class="font2">Check Our <span class="red font2">YUMMY Menu</span></h1>
@@ -392,20 +392,73 @@
         </div> -->
     </div>
     <!-- * -->
-    <section>
-        <div class="bigDiv-7">
+    <!-- <div class="bigDiv-7">
 
-        </div>
-    </section>
+        </div> -->
+        <section id="Events" class="sec6">
+            <div class="sec6-container">
+                <div class="sec6-events events1">
+                <div class="opacity1">
+                    <h3>
+                        Custom Parties
+                    </h3>
+                    <h1>$ 99</h1>
+                    <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
+                        est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                </div>
+            </div>
+
+            <div class="sec6-events events2">
+                <div class="opacity1">
+                    <h3>
+                        Custom Parties
+                    </h3>
+                    <h1>$ 289</h1>
+                    <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
+                        est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                </div>
+            </div>
+
+
+            <div class="sec6-events events3">
+                <div class="opacity1">
+                    <h3>
+                        Custom Parties
+                    </h3>
+                    <h1>$ 489</h1>
+                    <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
+                        est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                </div>
+            </div>
+
+            <!-- <div class="sec6-events events4">
+                <div class="opacity1">
+                    <h3>
+                        Custom Parties
+                    </h3>
+                    <h1>$ 899</h1>
+                    <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
+                        est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                </div>
+            </div> -->
+         </div>
+          <div class="events-point">
+                    <span class="dot-event active"></span>
+                    <span class="dot-event"></span>
+                    <span class="dot-event"></span>
+                    <span class="dot-event"></span>
+                </div>
+        </section>
+        
 
 
 
     <!--* chefs -->
     <section>
 
-        <div id="chefs" class="bigDiv-8">
+        <div id="Chefs" class="bigDiv-8">
             <div class="mini-4">
-                <p>Chefs</p>
+                <p>CHEFS</p>
                 <h1 class="font2">Our <span class="red font2">Proffesional Chefs</span></h1>
 
             </div>
@@ -458,6 +511,65 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+    </section>
+
+    <!--* section6 -->
+    <section>
+        <div class="chose">
+            <h2>BOOK A TABLE</h2>
+            <div class="Restaurant">
+                <p>BOOK YOUR <span class="STAY">STAY WITH US</span></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cc">
+                <img src="./public/images/reservation.jpg" alt="" width="500px">
+            </div>
+            <div class="xx">
+                <div class="contro">
+                    <div class="contactr">
+                        <div class="input">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                required="">
+                        </div>
+                        <div>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                required="">
+                        </div>
+                    </div>
+                    <div class="contactr">
+                        <div>
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
+                                required="">
+                        </div>
+                        <div>
+                            <input type="date" name="date" class="form-control" id="date" placeholder="Date"
+                                required="">
+                        </div>
+                    </div>
+                    <div class="contactr">
+                        <div>
+                            <input type="time" class="form-control" name="time" id="time" placeholder="Time"
+                                required="">
+                        </div>
+                        <div>
+                            <input type="number" class="form-control" name="people" id="people"
+                                placeholder="# of people" required="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="golourt">
+                    <div class="messgre">
+                        <textarea class="form-contror" name="message" rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <button class="boutton">Book a Table</button>
+                </div>
+
+            </div>
+
         </div>
 
     </section>

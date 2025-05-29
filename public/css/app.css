@@ -488,6 +488,108 @@ nav div h1 span {
   flex-direction: column;
   row-gap: 20px;
 }
+
+
+/** jhghjfgj */
+.sec6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    gap: 1rem;
+}
+.sec6-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+}
+
+.sec6-events{
+    width:30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+.sec6-events h3{
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 1.5rem;
+}
+.opacity1 h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-bottom: 2px solid #ce1212;
+    width: 4rem;
+}
+.opacity1 p{
+  font-size: 20px;
+
+}
+.sec6-events p{
+    color: white;
+    width: 22rem;
+}
+.opacity1{
+    background-color: rgba(0, 0, 0, 0.58);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding-top: 35rem;
+    padding-inline: 2rem;
+    
+}
+.events1{
+    background-image: url(../images/events-1.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+}
+.events2{
+    background-image: url(../images/events-2.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+}
+.events3{
+    background-image: url(../images/events-3.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+}
+.events4{
+    background-image: url(../images/events-4.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+}
+.event-point {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.dot-event {
+    height: 12px;
+    width: 12px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.dot-event.active {
+    background-color: #ce1212;
+}
+
+
 /** chefs */
 .bigDiv-8 {
   height: 90vh;
@@ -505,9 +607,15 @@ nav div h1 span {
   flex-direction: column;
 }
 .mini-4 p {
-  padding-top: 60px;
+  padding-top: 10vw;
+  color: #7f7f90;
+  font-size: 25px;
 }
 .mini-4 h1 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
   padding-top: 60px;
 }
 .mainDiv-5 {
@@ -564,11 +672,91 @@ nav div h1 span {
   margin-top: 60px;
 }
 .clip h3 {
+  font-weight: bolder;
+  font-size: 30px;
   color: rgb(55, 55, 63);
 }
 .clip p {
+  font-size: 20px;
+  padding-bottom: 30px;
   color: rgb(128, 131, 134);
 }
+
+/** section6 */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.contro{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #dee2e7;
+    padding-top: 18.5vh;
+}
+
+
+.chose{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 15vw;
+  gap: 20px;
+}
+.chose{
+  color: #7f7f90;
+}
+.Restaurant{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  color: black;
+}
+.STAY{
+  color: #ce1212;
+}
+.contactr{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 60px;
+  width: 250px;
+  gap: 20px;
+    
+}
+.form-control{
+  padding: 20px 55px;
+}
+.form-contror{
+  padding: 50px 400px;
+}
+.messgre{
+    padding: 20px;
+    width: 50vw;
+}
+/* .messgre:active{
+    border: #ffae35;
+} */
+.boutton{
+    background-color: #ce1212;
+    padding: 20px 60px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.golourt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #dee2e7;
+    padding-bottom: 43px;
+}
+
 
 /* .next,
 .previous {
