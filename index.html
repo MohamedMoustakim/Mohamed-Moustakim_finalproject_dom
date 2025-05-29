@@ -37,10 +37,12 @@
         </div>
 
         <div>
-            <button class="btn-1 log">Book a Table</button>
+            <button id="btn-1log" class="btn-1 log">Book a Table</button>
         </div>
 
     </nav>
+
+
 
     <!--* Home -->
     <section>
@@ -54,9 +56,10 @@
                 <p>We are team of talented designers making <br> websites with Bootstrap</p>
                 <div class="mini-1">
                     <button class="btn-1">Book A table</button>
-                    <div class=""><i class="fa-regular fa-circle-play watch"></i> Watch Video</div>
+                    <div class="solide" id="video"><i class="fa-regular fa-circle-play watch"></i> Watch Video</div>
 
                 </div>
+
 
 
 
@@ -67,8 +70,39 @@
             </div>
 
         </div>
+        <div class="homee">
+            <a href=""><i class=" up red fa-solid fa-arrow-up"></i></a>
+        </div>
+
+        <!--* Sign Up -->
+
+        <div class="wrapper">
+            <h2>Sign Up</h2>
+            <form action="#">
+                <div id="fxmark" class="fxmark">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Create password" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Confirm password" required>
+                </div>
+                <div class="input-box button">
+                    <input type="Submit" value="Register Now">
+                </div>
+            </form>
+        </div>
+
 
     </section>
+
 
     <!--* About -->
     <section>
@@ -122,7 +156,7 @@
             </div>
         </div>
 
-        <div  class="bigDiv-3">
+        <div class="bigDiv-3">
             <div class="cart-1">
                 <h1>Why Choose Yummy</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -171,6 +205,13 @@
         </div>
 
     </section>
+    <div id="vimodal" class="modal-vid">
+        <div class="modal-vid-content">
+            <i id="video-close" class="fa-solid fa-xmark video-close"></i>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/Y7f98aduVJ8?autoplay=1"
+                title="YouTube video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
     <!--* menu -->
     <section>
         <div id="Menu" class="bigDiv-5">
@@ -242,7 +283,7 @@
 
         </div>
     </section>
-    <!-- caroseul -->
+    <!--* caroseul1 -->
     <div id="c1" class="carousel-container">
 
         <div class="carousel">
@@ -391,47 +432,46 @@
 
         </div> -->
     </div>
-    <!-- * -->
-    <!-- <div class="bigDiv-7">
 
-        </div> -->
+    <!--* caroseul2 -->
+    <div class="bigDiv-7">
         <section id="Events" class="sec6">
             <div class="sec6-container">
                 <div class="sec6-events events1">
-                <div class="opacity1">
-                    <h3>
-                        Custom Parties
-                    </h3>
-                    <h1>$ 99</h1>
-                    <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
-                        est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                    <div class="opacity1">
+                        <h3>
+                            Custom Parties
+                        </h3>
+                        <h1>$ 99</h1>
+                        <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
+                            est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="sec6-events events2">
-                <div class="opacity1">
-                    <h3>
-                        Custom Parties
-                    </h3>
-                    <h1>$ 289</h1>
-                    <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
-                        est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                <div class="sec6-events events2">
+                    <div class="opacity1">
+                        <h3>
+                            Custom Parties
+                        </h3>
+                        <h1>$ 289</h1>
+                        <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
+                            est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                    </div>
                 </div>
-            </div>
 
 
-            <div class="sec6-events events3">
-                <div class="opacity1">
-                    <h3>
-                        Custom Parties
-                    </h3>
-                    <h1>$ 489</h1>
-                    <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
-                        est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                <div class="sec6-events events3">
+                    <div class="opacity1">
+                        <h3>
+                            Custom Parties
+                        </h3>
+                        <h1>$ 489</h1>
+                        <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
+                            est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- <div class="sec6-events events4">
+                <!-- <div class="sec6-events events4">
                 <div class="opacity1">
                     <h3>
                         Custom Parties
@@ -441,81 +481,84 @@
                         est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
                 </div>
             </div> -->
-         </div>
-          <div class="events-point">
-                    <span class="dot-event active"></span>
-                    <span class="dot-event"></span>
-                    <span class="dot-event"></span>
-                    <span class="dot-event"></span>
-                </div>
+            </div>
+            <div class="events-point">
+                <span class="dot-event active"></span>
+                <span class="dot-event"></span>
+                <span class="dot-event"></span>
+                <span class="dot-event"></span>
+            </div>
         </section>
-        
 
 
 
-    <!--* chefs -->
-    <section>
 
-        <div id="Chefs" class="bigDiv-8">
-            <div class="mini-4">
-                <p>CHEFS</p>
-                <h1 class="font2">Our <span class="red font2">Proffesional Chefs</span></h1>
+        <!--* chefs -->
+        <section>
 
+            <div id="Chefs" class="bigDiv-8">
+                <div class="mini-4">
+                    <p>CHEFS</p>
+                    <h1 class="font2">Our <span class="red font2">Proffesional Chefs</span></h1>
+
+                </div>
+                <div class="mainDiv-5">
+                    <div class="card-1">
+                        <div class="zzz">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+
+
+                        <img src="./public/images/chefs/chefs-1.jpg" alt="">
+                        <div class="clip">
+                            <h3 class="marg">Walter White </h3>
+                            <p>Master Chef</p>
+                            <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore <br> tenetur ipsa quae aut.
+                                Ipsum exercitationem iure minima enim <br>corporis et voluptate.</p>
+                        </div>
+                    </div>
+                    <div class="card-1">
+                        <div class="zzz">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <img src="./public/images/chefs/chefs-2.jpg" alt="">
+                        <div class="clip">
+                            <h3 class="marg">Sarah Jhonson </h3>
+                            <p>Patissier</p>
+                            <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore <br> tenetur ipsa quae aut.
+                                Ipsum exercitationem iure minima enim <br>corporis et voluptate.</p>
+                        </div>
+                    </div>
+                    <div class="card-1">
+                        <div class="zzz">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <img src="./public/images/chefs/chefs-3.jpg" alt="">
+                        <div class="clip">
+                            <h3 class="marg">William Anderson </h3>
+                            <p>Cook</p>
+                            <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore <br> tenetur ipsa quae aut.
+                                Ipsum exercitationem iure minima enim <br>corporis et voluptate.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="mainDiv-5">
-                <div class="card-1">
-                    <div class="zzz">
-                        <i class="fa-brands fa-x-twitter"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </div>
+
+        </section>
+
+    </div>
 
 
-                    <img src="./public/images/chefs/chefs-1.jpg" alt="">
-                    <div class="clip">
-                        <h3 class="marg">Walter White </h3>
-                        <p>Master Chef</p>
-                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore <br> tenetur ipsa quae aut.
-                            Ipsum exercitationem iure minima enim <br>corporis et voluptate.</p>
-                    </div>
-                </div>
-                <div class="card-1">
-                    <div class="zzz">
-                        <i class="fa-brands fa-x-twitter"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </div>
-                    <img src="./public/images/chefs/chefs-2.jpg" alt="">
-                    <div class="clip">
-                        <h3 class="marg">Sarah Jhonson </h3>
-                        <p>Patissier</p>
-                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore <br> tenetur ipsa quae aut.
-                            Ipsum exercitationem iure minima enim <br>corporis et voluptate.</p>
-                    </div>
-                </div>
-                <div class="card-1">
-                    <div class="zzz">
-                        <i class="fa-brands fa-x-twitter"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </div>
-                    <img src="./public/images/chefs/chefs-3.jpg" alt="">
-                    <div class="clip">
-                        <h3 class="marg">William Anderson </h3>
-                        <p>Cook</p>
-                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore <br> tenetur ipsa quae aut.
-                            Ipsum exercitationem iure minima enim <br>corporis et voluptate.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!--* section6 -->
+    <!--* Book A Table -->
     <section>
         <div class="chose">
             <h2>BOOK A TABLE</h2>
@@ -573,6 +616,64 @@
         </div>
 
     </section>
+
+
+
+
+
+    <!--* footer -->
+    <footer>
+        <div class="footer-1">
+            <div class="ft-1">
+                <div><i class="fa-solid fa-location-dot"></i></div>
+                <div class="ft-2">
+                    <div>
+                        <h3>Adress</h3>
+                    </div>
+                    <div>A108 Adam Street <br> New York, NY 535022</div>
+                </div>
+            </div>
+            <div class="ft-1">
+                <div><i class="fa-solid fa-phone"></i></div>
+                <div class="ft-2">
+                    <div>
+                        <h3>Contact</h3>
+                    </div>
+                    <div>Phone: +1 5589 55488 55 <br> Email: info@example.com</div>
+                </div>
+            </div>
+            <div class="ft-1">
+                <div><i class="fa-regular fa-clock"></i></div>
+                <div class="ft-2">
+                    <div>
+                        <h3>Opening Hours</h3>
+                    </div>
+                    <div><b>Mon-Sat</b>: 11AM - 23PM<br> Sunday: Closed</div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>Follow Us</h3>
+                </div>
+                <div class="ft-3">
+
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-2">
+            <div>
+                &#169; CopyRight <b>Yummy</b>All Rights Reserved <br> Designed by <span class="red">BootstrapMade</span>
+            </div>
+
+        </div>
+
+    </footer>
+
 
 
 

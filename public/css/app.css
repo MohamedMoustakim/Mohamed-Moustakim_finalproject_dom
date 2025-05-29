@@ -12,6 +12,7 @@ nav {
   width: 100%;
   position: fixed;
   z-index: 99;
+  
 }
 nav div h1 {
   color: rgb(84, 78, 89);
@@ -58,6 +59,7 @@ nav div h1 span {
   border-style: none;
   width: 120px;
 }
+
 
 /** section 1 Home */
 .bigDiv {
@@ -108,6 +110,141 @@ nav div h1 span {
   width: 50%;
   height: 100%;
 }
+.homee{
+  right: 37px;
+  bottom: 5px;
+  position: fixed;
+}
+.homee i{
+    color: white;
+    background-color: #ce1212;
+    padding: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    
+}
+/** videu */
+.modal-vid {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-vid-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+}
+
+.video-close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/** Sing Up */
+
+.wrapper{
+  max-width: 430px;
+  width: 100%;
+  background: #937272;
+  border-radius: 1rem 5rem 1rem;
+  padding: 34px;
+  position: fixed;
+  right: 400px;
+  top: 230px;
+  z-index: 99999;
+  display: none;
+
+}
+.solide{
+  cursor: pointer;
+}
+.wrapper h2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ce1212;
+}
+.fxmark{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding-left: 90%;
+  color: white;
+}
+.fxmark i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  width: 30px;
+  height: 20px;
+  border-radius: 100%;
+}
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #ce1212;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background: #ce1212;
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+
 @keyframes saif {
   0% {
     transform: translateY(0px);
@@ -490,7 +627,8 @@ nav div h1 span {
 }
 
 
-/** jhghjfgj */
+/** caroucel */
+
 .sec6{
     display: flex;
     flex-direction: column;
@@ -758,6 +896,77 @@ nav div h1 span {
 }
 
 
+/** footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  width: 100%;
+  background-color: rgb(31, 31, 36);
+  margin-top: 100px;
+  
+}
+.footer-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 200px;
+  padding-top: 80px;
+}
+.footer-1 i {
+  color: red;
+  font-size: 20px;
+}
+.ft-1 {
+  display: flex;
+  gap: 30px;
+}
+.ft-1 i{
+  font-size: 50px;
+
+}
+.ft-2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.ft-2 div{
+  font-size: 25px;
+}
+
+.ft-3 {
+  display: flex;
+  padding-top: 20px;
+  gap: 10px;
+}
+.ft-3 i {
+  border-radius: 50%;
+  color: gray;
+  border: 1px solid gray;
+  padding: 10px;
+}
+.ft-3 i:hover {
+  color: red;
+  border-color: red;
+  transition: 0.4s;
+}
+.footer-2 {
+  height: 150px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid gray;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
 /* .next,
 .previous {
   padding: 1vh 2vw;
@@ -795,3 +1004,119 @@ nav div h1 span {
 .indicator.active {
   background: rgb(206, 18, 18);
 } */
+@media screen and (max-width: 425px) {
+
+  /* Navbar adjustment */
+  nav {
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  nav div h1 {
+    font-size: 24px;
+  }
+
+  .secDiv a {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  /* Home Section */
+  .bigDiv {
+    height: auto;
+    padding-top: 100px;
+    flex-direction: column;
+  }
+
+  .mainDiv-1 {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .font {
+    font-size: 3rem;
+  }
+
+  .mini-1 {
+    flex-direction: column;
+  }
+
+  .mainDiv-2 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  /* Section 2 */
+  .about-1 {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    font-size: 18px;
+  }
+
+  /* Cart Section */
+  .cart-1 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .cart-1 button {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  .cart-2 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  /* Section 3 - Big Div */
+  .bigDiv-3 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  /* Responsive Adjustments for other sections */
+  .bigDiv-4 div h1 {
+    font-size: 30px;
+  }
+
+  .bigDiv-4 div p {
+    font-size: 18px;
+  }
+
+  .mini-menu-1 {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .mini-menu-2 {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  /* Chefs Section */
+  .bigDiv-8 {
+    height: auto;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .mainDiv-5 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .card-1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .clip {
+    padding: 20px;
+  }
+}
